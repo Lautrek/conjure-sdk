@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "conjure-cad"
+name = "conjure-sdk"
 version = "0.1.0"
 description = "Official Python SDK for the Conjure CAD API"
 readme = "README.md"
