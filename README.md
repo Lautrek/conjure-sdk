@@ -1,11 +1,15 @@
 # Conjure Python SDK
 
-Official Python SDK for the Conjure API. Provides both a Build123d-style builder pattern and an imperative API.
+[![PyPI](https://img.shields.io/pypi/v/conjure-sdk)](https://pypi.org/project/conjure-sdk/)
+[![CI](https://github.com/Lautrek/conjure-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/Lautrek/conjure-sdk/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+Official Python SDK for the Conjure CAD platform. Provides both a Build123d-style builder pattern and an imperative API for AI-assisted CAD scripting.
 
 ## Installation
 
 ```bash
-pip install conjure-cad
+pip install conjure-sdk
 ```
 
 ## Quick Start: Builder Pattern (Recommended)
@@ -261,6 +265,12 @@ except ConjureAPIError as e:
     print(f"API error: {e}")
 ```
 
+## Links
+
+- [Conjure FreeCAD](https://github.com/Lautrek/conjure-freecad) - FreeCAD workbench
+- [Conjure Blender](https://github.com/Lautrek/conjure-blender) - Blender add-on
+- [Conjure Website](https://conjure.lautrek.com)
+
 ## License
 
-MIT License - See LICENSE file.
+MIT License - See [LICENSE](LICENSE) file.
