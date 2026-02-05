@@ -46,3 +46,4 @@ htmlcov/
 
 # ruff
 .ruff_cache/
+uv.lock
