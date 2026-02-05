@@ -7,7 +7,6 @@ from enum import Enum
 from typing import Any, Callable, Dict, Optional
 
 from .config import ServerClientConfig
-from .result import AdapterResult
 
 logger = logging.getLogger(__name__)
 

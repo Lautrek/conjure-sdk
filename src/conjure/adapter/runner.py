@@ -1,6 +1,5 @@
 """Convenience runner for wiring adapter + server client."""
 
-import asyncio
 import logging
 from typing import Optional
 

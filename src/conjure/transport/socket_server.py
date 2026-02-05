@@ -6,7 +6,7 @@ import queue
 import socket
 import threading
 import uuid
-from typing import Any, Callable, Dict, Optional, Tuple
+from typing import Any, Callable, Dict, Optional
 
 logger = logging.getLogger(__name__)
 

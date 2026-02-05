@@ -1,10 +1,9 @@
 """Base adapter class for all Conjure CAD clients."""
 
-import asyncio
 import inspect
 import logging
 from abc import ABC, abstractmethod
-from typing import Any, Callable, Dict, List, Optional
+from typing import Any, Callable, Dict, List
 
 from .result import AdapterResult
 
